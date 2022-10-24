@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: "demo20repo"
   ECS_SERVICE: "naservice20"          
   ECS_CLUSTER: "demo20cluster"        
-  ECS_TASK_DEFINITION_FILE: "./demo20taskdef"
+  ECS_TASK_DEFINITION_FILE: "./demo20taskdef.json"
   ECS_TASK_DEFINITION: "demo20taskdef"
   CONTAINER_NAME: "demo20contain"
   IMAGE_TAG: "latest"
